@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'Framework' do |ss|
-    ss.ios.vendored_framework   = 'ios/YYText.framework'
+    ss.ios.vendored_framework   = 'YYText.framework'
   end
   
   s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
